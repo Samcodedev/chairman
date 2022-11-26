@@ -1,0 +1,61 @@
+.c_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 0 0;
+}
+.c_about .sub_c_about{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.c_about .sub_c_about .img_div{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.c_about .sub_c_about .img_div img{
+    width: 100%;
+}
+.c_about .sub_c_about .img_div::after{
+    content: '';
+    width: 520px;
+    height: 510px;
+    border: 1.5px solid #ffffff;
+    position: absolute;
+    border-radius: 3px;
+
+}
+.c_about .sub_c_about .text_div{
+    width: 50%;
+    padding: 10px 0;
+}
+.c_about .sub_c_about .text_div p{
+    margin-top: 20px;
+}
+.c_about .sub_c_about .text_div .social{
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    margin-top: 20px;
+}
+.c_about .sub_c_about .text_div .social .icon{
+    padding: 10px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1.5px solid #000000;
+    color: #000000;
+    cursor: pointer;
+}
+.c_about .sub_c_about .text_div .social .icon:hover{
+    border: 1.5px solid rgb(255, 217, 0);
+    color: rgb(255, 217, 0);
+}
+.c_about .appoint{
+    padding: 50px 0;
+}

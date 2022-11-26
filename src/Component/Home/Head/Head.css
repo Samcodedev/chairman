@@ -1,0 +1,32 @@
+.head{
+    /* background-color: antiquewhite; */
+    background-image: url('../../img/Agege-history-Lagos.jpg');
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5%;
+    background-size: cover;
+    /* filter: brightness(40%); */
+}
+.head .text-div h4{
+    font-size: .75rem;
+    color: rgb(255, 217, 0);
+}
+.head .text-div{
+    width: 65%;
+}
+.head .text-div h1{
+    font-size: 4rem;
+    color: #ffffff;
+}
+.head .text-div p{
+    width: 65%;
+    line-height: 150%;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.head .text-div button{
+    margin-top: 20px;
+}

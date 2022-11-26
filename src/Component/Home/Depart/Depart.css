@@ -1,0 +1,22 @@
+.depart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #e9e9e9;
+}
+.depart .sub-text{
+    width: 90%;
+    text-align: center;
+}
+.depart .sub-text h2{
+    font-size: 2rem;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.depart .sub-depart{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}

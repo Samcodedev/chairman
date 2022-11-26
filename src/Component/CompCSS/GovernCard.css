@@ -1,0 +1,25 @@
+.govern_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    gap: 20px;
+}
+.govern_card::after{
+    content: '';
+    width: 220px;
+    height: 140px;
+    position: absolute;
+    border: 1.5px solid rgb(20, 20, 13);
+    border-radius: 3px;
+
+}
+.govern_card:is(:hover, :focus, :active){
+    background-color: rgb(255, 217, 0);
+    /* color: #ffffff; */
+}

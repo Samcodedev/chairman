@@ -1,0 +1,32 @@
+.depart_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffffff;
+    width: 200px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    /* box-shadow: 0 1px 4px rgb(182, 182, 182),
+                -0 -1px 4px rgb(182, 182, 182); */
+}
+.depart_card h4{
+    margin-bottom: 10px;
+}
+.depart_card .details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.depart_card .details button{
+    border: 1.8px solid #cccbcb;
+    color: #cccbcb;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.depart_card .details button:is(:hover, :active, :focus){
+    border: 1.8px solid rgb(255, 217, 0);
+    color: rgb(255, 217, 0);
+}

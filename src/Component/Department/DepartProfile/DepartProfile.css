@@ -1,0 +1,29 @@
+.depart_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.depart_profile .chead{
+    width: 100%;
+}
+.depart_profile .sub_depart_profile{
+    width: 90%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.depart_profile .sub_depart_profile p{
+    width: 70%;
+}
+.depart_profile .sub_depart_profile h4{
+    margin-top: 5px;
+}
+.depart_profile .sub_depart_profile span{
+    margin-top: 20px;
+}
+.depart_profile .sub_depart_profile img{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+}

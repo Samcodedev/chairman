@@ -1,0 +1,24 @@
+.chead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: #e9e9e9;
+}
+.chead ul{
+    display: flex;
+    padding-inline-start: 0;
+    gap: 20px;
+}
+.chead ul a{
+    text-decoration-line: none;
+    color: #000000;
+}
+.chead ul a:is(:hover, :active, :focus){
+    text-decoration-line: underline;
+    /* color: rgb(255, 217, 0); */
+}
+.chead ul li{
+    list-style: none;
+}
